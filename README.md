@@ -1,6 +1,6 @@
 # DNAmPipeline
 
-_DNAmPipeline_ is a tool for estimating methylation level which is the ratioof intensities between methylated and unmethylated alleles
+_DNAmPipeline_ is a tool for estimating methylation level which is the ratioof intensities between methylated and unmethylated alleles. In this project, we use genome assembly GRCh38 to align and other analysis. 
 
 ![pipeline](images/pipeline.png)
 
@@ -27,7 +27,7 @@ $cat testdata.txt
 ```
 python script/pipeline.py --fastq /media/data/hg38.fa --output-dir output --bismark bismark --file-name data/test_data.txt
 ```
-* fastq: path of reference file (fa, fastq)
+* fastq: path of hg38 reference file (fa, fastq)
 * output-dir: path of output
 * bismark: path of bismark tool
 * file-name: path of file containg list of fastq input path
