@@ -1,0 +1,3 @@
+/media/vinhdc/DATA/project/MethylNet/data/Bismark/test_data_1.fastq
+/media/vinhdc/DATA/project/MethylNet/data/Bismark/test_data.fastq
+~/Bioinfomatics/project/DNAmPipeline/m64123_220803_002018.hifi_reads.fastq.gz
