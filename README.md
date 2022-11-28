@@ -4,15 +4,7 @@ _DNAmPipeline_ is a tool for estimating methylation level which is the ratioof i
 
 ![pipeline](images/pipeline.png)
 
-## Step 1
-Using bismark tool to align list of sequencing pacbio FASTQ data to BAM data with minimap2 option
-## Step 2
-We apply Bismark to extract methylation information of each positions from aligned BAM data in previous step
-## Step 3
-This step convert BAM to BED format to annotate CpG island of positions by _Annotatr_ libary developed in R
-
-## Step 4
-Combine annotation CpG data and methylation information
+Firstly, we use bismark tool to align list of sequencing pacbio FASTQ data to BAM data with minimap2 option. After that, we extract methylation information of each positions from aligned BAM data in previous step and convert BAM to BED format to annotate CpG island of positions by _Annotatr_ libary developed in R. Finally, we combine annotation CpG data and methylation information
 # Input data
 Input for _DNAmPipeline_ is a file contains list of fastq file paths. For example:
 
